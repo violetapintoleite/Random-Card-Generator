@@ -6,7 +6,7 @@ body {
   text-align: center;
 }
 
-#hearts {
+.card {
   position: relative;
   height: 350px;
   width: 250px;
@@ -17,41 +17,39 @@ body {
   -moz-border-radius: 8%;
 }
 
-#spade {
+.nipe {
+  position: relative;
+  top: 135px;
+  left: -15px;
   font-size: 60px;
   margin: auto;
 }
 
-.center {
-  position: relative;
-  top: 135px;
-  left: -15px;
-}
-
-.small-spade {
+#left,
+#right {
   position: absolute;
   font-size: 22px;
 }
 
-.left {
+#left {
   left: 30px;
   top: 50px;
 }
 
-.right {
+#right {
   -webkit-transform: rotate(-180deg);
   left: 203px;
   top: 265px;
 }
 
-#ace-left {
+#number-left {
   position: relative;
   font-size: 30px;
   top: -10px;
   left: -55px;
 }
 
-#ace-right {
+#number-right {
   position: absolute;
   font-size: 30px;
   top: 295px;
